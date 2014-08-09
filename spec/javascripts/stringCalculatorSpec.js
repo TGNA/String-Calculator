@@ -18,8 +18,4 @@ describe("The string calculator", function(){
     it("calculates '6/3' and returns 2", function() {
       expect(calculate('6/3')).toBe(2);
     });
-
-    it("calculates '60/3' and returns 20", function() {
-      expect(calculate('60/3')).toBe(20);
-    });
 });
